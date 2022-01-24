@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 import glob, os
 
-#usage: python3 char_tst.py <testing csvs/> <features: "p", "n", "pn"> <training output> <training output (p) as fallback>
+#usage: python3 char_tst.py <testing csvs/> <features: "p", "n", "pn"> <training output> <training output (p) as fallback> <target testing number>
 os.chdir(sys.argv[1])
 features = sys.argv[2]
 targettest = sys.argv[5]
