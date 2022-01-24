@@ -30,3 +30,5 @@
     -  MLE PDFs reporting probabilities of realizations of _F_
 
 ##### `char_tst.py`
+- **Usage:** `python3 char_tst.py <testing csvs/> <features: "p", "n", "pn"> <training output> <training output (p) as fallback> > sensitivities` with shell redirection for outputting
+- 
