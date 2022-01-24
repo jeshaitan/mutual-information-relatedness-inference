@@ -37,4 +37,6 @@
     - Accuracy and incorrect classification counts for each degree
     - Checksums on number of pairs and number of classified pairs.
     - Number of unclassified pairs (correct and missed unrelated pairs)
-    - `char_tst.py` can also generate histograms of correct and incorrect classified pairs in each degree, plotted along "p" and "n" realizations.
+    - Uncommenting the last section of `char_tst.py` generates histograms of correct and incorrect classified pairs in each degree, plotted along "p" and "n" realizations.
+
+##### `exact_mi_discrete.py` contains tools for calculating MI from different combinations of sources, vectors, and PDFs, as well as binning and interpolating functions used in the other codes. 
