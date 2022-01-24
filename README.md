@@ -39,4 +39,4 @@
     - Number of unclassified pairs (correct and missed unrelated pairs)
     - Uncommenting the last section of `char_tst.py` generates histograms of correct and incorrect classified pairs in each degree, plotted along "p" and "n" realizations.
 
-##### `exact_mi_discrete.py` contains tools for calculating MI from different combinations of sources, vectors, and PDFs, as well as binning and interpolating functions used in the other codes. 
+#### `exact_mi_discrete.py` contains tools for calculating MI from different combinations of sources, vectors, and PDFs, as well as binning and interpolating functions used in the other codes. 
