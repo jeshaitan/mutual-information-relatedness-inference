@@ -3,12 +3,13 @@ import matplotlib.pyplot as plt
 import sys
 import glob, os
 
-#usage: python3 char_trn.py <training csvs/> <features: "p", "n", "pn">
+#usage: python3 char_trn.py <training csvs/> <features: "p", "n", "pn"> <target training number>
 os.chdir(sys.argv[1])
 features = sys.argv[2]
+targettrain = sys.argv[3]
 
 #targettrain = 210000
-targettrain = 21000
+#targettrain = 21000
 
 # pairs should be sorted by file by degree
 trnpairs = []
