@@ -56,7 +56,7 @@ for i in range(1, len(trn_inds)):
     
     # bin_N = int(len(prs) * 0.01)
     # special manual override
-    bin_N = int(3000 * 0.01)
+    bin_N = int((targettrain / 7) * 0.01)
    
     if(features=="pn"):
         XX = np.array([[pair[0], pair[1]] for pair in prs])
