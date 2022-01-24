@@ -6,8 +6,9 @@ import glob, os
 #usage: python3 char_tst.py <testing csvs/> <features: "p", "n", "pn"> <training output> <training output (p) as fallback>
 os.chdir(sys.argv[1])
 features = sys.argv[2]
+targettest = sys.argv[5]
 
-targettest = 21000
+#targettest = 21000
 
 # load normalization info and pdfs from training data
 '''
